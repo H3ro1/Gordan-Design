@@ -1,0 +1,48 @@
+.contnetwrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar {
+   
+    height: min-content;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.navborder {
+   
+    background-color: rgba(232, 229, 228, 0.5);;
+    height: fit-content;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.button {
+   
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 2px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+a {
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Neue Montreal Regular", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
