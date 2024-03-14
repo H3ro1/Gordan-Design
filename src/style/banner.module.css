@@ -1,0 +1,29 @@
+
+
+.bannerwrapper {
+    height: 40vh;
+    max-width: 1400px;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingwrapper {
+  
+    width: 700px;
+    height: fit-content;
+    text-align: center;
+}
+
+.headingwrapper h1 {
+
+    font-family: "Neue Montreal Medium", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    text-wrap: wrap;
+    
+}

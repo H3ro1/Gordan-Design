@@ -1,48 +1,80 @@
-.contnetwrap {
+body {
+    padding:0;
+    margin: 0;
+    overflow-y: scroll;
+
+
+}
+
+.contentwrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+
+
 }
 
 
 .navbar {
-   
-    height: min-content;
+    display: flex;
     max-width: 1400px;
     margin: auto;
+    height: 108px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
 }
 
 .navborder {
-   
-    background-color: rgba(232, 229, 228, 0.5);;
+    background-color: rgba(232, 229, 228, 0.5);
     height: fit-content;
-    width: 300px;
-    margin: auto;
+    width: 292px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    border-radius: 100px;
+    align-items: center;
+    overflow: hidden;
+    padding: 4px;
+    gap: 4px;
+    position: relative;
+
+
 }
 
 .button {
-   
-    text-align: center;
-    height: fit-content;
-    width: fit-content;
-    margin: 2px;
-    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 100px;
+  
+  
+    
+}
+
+.white {
     background-color: white;
+
+
 }
 
 a {
-    padding: 20px;
+    
+    
     font-size: 20px;
-    font-family: "Neue Montreal Regular", serif;
+    font-family: "Neue Montreal Regular", sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+
+
 }
-
-
