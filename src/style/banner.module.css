@@ -1,6 +1,8 @@
 
 
 .bannerwrapper {
+    margin-top: 150px;
+    position: relative;
     height: 40vh;
     max-width: 1400px;
     padding: 40px;
@@ -19,7 +21,7 @@
 
 .headingwrapper h1 {
 
-    font-family: "Neue Montreal Medium", serif;
+    font-family: "Neue Montreal Medium", sans-serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -27,3 +29,29 @@
     text-wrap: wrap;
     
 }
+
+.bannerlist {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 10px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+       
+
+        li {
+            float: left;
+            margin: 10px;
+            background-color: rgba(232, 229, 228, 0.5);
+            padding: 10px;
+            border-radius: 100px;
+        }
+    }
+    
+}
+

@@ -1,0 +1,30 @@
+.gridbodywrapper {
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1400px;
+    row-gap: 40px;
+    column-gap: 20px;
+    overflow: visible;
+   
+
+}
+
+.imagewrapper {
+ width: 650px;
+ height: 50vh;
+ display: flex;
+ justify-content: center;
+
+    img {
+        border-radius: 10px;
+        object-fit:cover;
+        height:100% ;
+        width: 100% ;
+        
+    }
+}
