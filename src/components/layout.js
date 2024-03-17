@@ -12,7 +12,8 @@ import {
     white,
     copyright,
     links,
-    headerlinks
+    headerlinks,
+    animate
 } from '../style/layout.module.css'
 
 
@@ -38,11 +39,13 @@ const Layout = ({ children }) => {
                         <Link to="/profile"  className={headerlinks}>Profile</Link>
                     </div>
                     <div className={`${button} ${activeDiv === 'contact' ? white : ''}`} >
-                        <Link to="/"  className={headerlinks}>Contact</Link>
+                        <Link to="/contact"  className={headerlinks}>Contact</Link>
                     </div>
                 </div>
             </div>
+            <div className={animate}>
             {children}
+            </div>
         </div>
         <footer> 
                 <div className={copyright}>© Gordan Morris 2024</div>

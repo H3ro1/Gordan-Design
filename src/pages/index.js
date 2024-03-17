@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { bannerlist } from "../style/banner.module.css"
 import Layout from "../components/layout.js"
 import Banner from "../components/banner.js"
 import Gridbody from "../components/gridbody.js"
@@ -20,27 +20,33 @@ import image11 from '../images/image11.jpg'
 import image12 from '../images/image12.jpg'
 
 const images = [
-  image1,
-  image2,
-  image3,
-  image4,
-  image5,
-  image6,
-  image7,
-  image8,
-  image9,
-  image10,
-  image11,
-  image12,
-  
-]
+  { image: image1, name: '.Pepsi Co' },
+  { image: image2, name: '.PotsforTots' },
+  { image: image3, name: '.Coppertist' },
+  { image: image4, name: '.NikeBounce' },
+  { image: image5, name: '.Yonex' },
+  { image: image6, name: '.SincoSpice' },
+  { image: image7, name: '.GetFresh' },
+  { image: image8, name: '.UreNext' },
+  { image: image9, name: '.Paradise Tattoo' },
+  { image: image10, name: '.Temple Bar' },
+  { image: image11, name: '.Orn Bracelets' },
+  { image: image12, name: '.McDuggies' },
+];
 
 
 const IndexPage = () => {
   return (
    <Layout>
-     <Banner/>
-     <Gridbody images={images}/>
+     <Banner Heading= {'Bringing the finest of Web Design to our clientele'} Bannerlist={<div className={bannerlist}>
+                <ul>
+                    <li>Expertise</li>
+                    <li>Design</li>
+                    <li>Product</li>
+                    <li>Branding</li>
+                </ul>
+            </div> }/>
+     <Gridbody images={images} />
    </Layout>
   )
 }

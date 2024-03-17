@@ -9,20 +9,13 @@ import {
 
 
 
-const Banner = () => {
+const Banner = ({Heading , Bannerlist}) => {
     return(
         <div className={bannerwrapper}>
             <div className={headingwrapper}>
-                <h1>Bringing the finest of Web Design to our clientele</h1>
+                <h1>{Heading}</h1>
             </div>
-            <div className={bannerlist}>
-                <ul>
-                    <li>Expertise</li>
-                    <li>Design</li>
-                    <li>Product</li>
-                    <li>Branding</li>
-                </ul>
-            </div> 
+            {Bannerlist}
         </div>
     )
 }
