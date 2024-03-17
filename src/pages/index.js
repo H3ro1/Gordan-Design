@@ -3,6 +3,9 @@ import * as React from "react"
 import Layout from "../components/layout.js"
 import Banner from "../components/banner.js"
 import Gridbody from "../components/gridbody.js"
+
+
+
 import image1 from '../images/image1.jpeg'
 import image2 from '../images/image2.jpg'
 import image3 from '../images/image3.jpg'

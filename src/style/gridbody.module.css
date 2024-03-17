@@ -15,12 +15,14 @@
 }
 
 .imagewrapper {
+
  width: 650px;
  height: 50vh;
  display: flex;
  justify-content: center;
 
     img {
+        will-change: filter;
         border-radius: 10px;
         object-fit:cover;
         height:100% ;
