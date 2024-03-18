@@ -13,7 +13,8 @@ import {
     copyright,
     links,
     headerlinks,
-    animate
+    animate,
+    shopbutton
 } from '../style/layout.module.css'
 
 
@@ -30,6 +31,7 @@ const Layout = ({ children }) => {
     return (
     <div className={page}>
         <div className={contentwrapper}>
+            
             <div className={navbar}>  
                 <div className={navborder}>
                     <div className={`${button} ${activeDiv === 'home' ? white : ''}`}>
@@ -43,6 +45,7 @@ const Layout = ({ children }) => {
                     </div>
                 </div>
             </div>
+            <div className={shopbutton}>Shop Now</div>
             <div className={animate}>
             {children}
             </div>

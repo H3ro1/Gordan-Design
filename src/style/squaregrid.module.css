@@ -1,0 +1,79 @@
+/* squaretitle,
+    square,
+    squaregridwrapper,
+    bodywrapper,
+    titlediv,
+    squaresubtitle,
+    squareundertitle */
+
+.bodywrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 150px;
+    align-content: center;
+    max-width: 1400px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+.titlediv {
+        margin: auto;
+        padding-bottom: 20px;
+        width: 700px;
+        text-align: center;
+        font-family: Neue Montreal Medium, sans-serif; 
+        font-size: 38px;
+        font-style: italic;
+
+}
+
+.squaregridwrapper {
+
+    margin-top:40px;
+    display: grid;
+    max-width: 1400px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 50px;
+    column-gap: 250px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.squaretitle {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: Neue Montreal Regular, sans-serif;
+    color: rgb(130, 130, 130)
+}
+
+.squaresubtitle {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-style:  Neue Montreal Regular, sans-serif;
+    font-weight: 600;
+    img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+    }
+}
+
+.squareundertitle {
+
+    font-style: Neue Montreal regular, sans-serif;
+    height: min-content;
+    width: min-content;
+    background-color: rgba(232, 229, 228, 0.5);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    text-wrap: nowrap;
+    border-radius: 100px;
+    padding: 5px;
+}
+

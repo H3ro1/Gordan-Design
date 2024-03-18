@@ -1,8 +1,12 @@
 body {
-    padding:0;
+    padding: 0;
     margin: 0;
     overflow-y: scroll;
 
+}
+html {
+    padding: 0px;
+    margin: 0px
 }
 
 .contentwrapper {
@@ -123,4 +127,22 @@ footer {
   }
   
   
-  
+  .shopbutton {
+    
+        position: fixed;
+        bottom: 30px; 
+        
+        background-color: black;
+        opacity: 0.9;
+        width: min-content;
+        height: min-content;
+        color: white;
+        
+        z-index: 10;
+        text-wrap: nowrap;
+        padding: 10px;
+        border-radius: 100px ;
+        
+        
+
+}

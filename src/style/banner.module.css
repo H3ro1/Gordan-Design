@@ -28,6 +28,8 @@
     font-weight: 400;
     letter-spacing: -0.2px;
     text-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 50px;
     
 }
 
@@ -51,6 +53,7 @@
             background-color: rgba(232, 229, 228, 0.5);
             padding: 10px;
             border-radius: 100px;
+            font-family:    Neue Montreal Medium, sans-serif ;
         }
     }
     

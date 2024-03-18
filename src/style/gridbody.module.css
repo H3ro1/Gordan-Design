@@ -24,7 +24,7 @@
     img {
         will-change: filter;
         border-radius: 10px;
-        object-fit:cover;
+        object-fit: cover;
         height:100% ;
         width: 100% ;
         

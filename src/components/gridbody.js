@@ -10,7 +10,7 @@ import {
 } from "../style/gridbody.module.css"
 
 
-const Gridbody = ({ images, name}) => {
+const Gridbody = ({ images }) => {
     const [hoveredIndex, setHoveredIndex] = useState(null); 
 
     return(
@@ -22,7 +22,7 @@ const Gridbody = ({ images, name}) => {
                      className={imagewrapper}>
                      {/* Conditionally render the name if this image is hovered */}
                      {hoveredIndex === index && (
-                        <div style={{ position: 'absolute', color: 'black', zIndex: 1, fontStyle: "Neue Montreal Regular, sans-serif", fontSize: "20px"}}>
+                        <div style={{ position: 'absolute', color: 'black', zIndex: 1, fontStyle: "Neue Montreal Regular, sans-serif",fontFamily: 'cursive', fontSize: "40px"}}>
                             {item.name}
                         </div>
                     )}
